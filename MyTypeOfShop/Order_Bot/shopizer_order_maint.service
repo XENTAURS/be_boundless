@@ -1,0 +1,17 @@
+# This is the init script to start the database maintenance script as a service
+# Copy this file to /etc/systemd/service
+# Then run the following commands:
+#  systemctl daemon-reload
+#  systemctl enable shopizer_order_maint.service
+#  systemctl start shopizer_order_maint.service
+[Unit]
+Description=Script to automate orders on MyTypeOfShop
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/shopizer-automate/order_maint.py
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,17 @@
+# This is the init script to start the order bot as a service
+# Copy this file to /etc/systemd/service
+# Then run the following commands:
+#  systemctl daemon-reload
+#  systemctl enable shopizer_order_bot.service
+#  systemctl start shopizer_order_bot.service
+[Unit]
+Description=Script to automate orders on MyTypeOfShop
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python -u /root/shopizer-automate/order_bot.py
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target

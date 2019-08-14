@@ -1,0 +1,385 @@
+{
+  "id": "18a35a45-b04c-43c2-a74f-afa74af2d170",
+  "version": "2.0",
+  "name": "MyTypeOfShop-JacobWest",
+  "url": "http://typeshop.xentaurs.com",
+  "tests": [{
+    "id": "a283b899-734d-4359-9f9c-956461cd438b",
+    "name": "JacobWest-order",
+    "commands": [{
+      "id": "be84f8cc-b9e6-46d1-822d-46f515378bae",
+      "comment": "",
+      "command": "open",
+      "target": "/shop",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d7844e7-e8a9-45a1-b392-8ea2adb2d333",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2560x1342",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8c8ce96-9ae7-40bc-879b-2bbe41958c49",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customerAccount .uppercase",
+      "targets": [
+        ["css=#customerAccount .uppercase", "css:finder"],
+        ["xpath=//div[@id='customerAccount']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea33d0f-814b-4d4a-9ee5-033f5b86a088",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin_userName",
+      "targets": [
+        ["id=signin_userName", "id"],
+        ["name=userName", "name"],
+        ["css=#signin_userName", "css:finder"],
+        ["xpath=//input[@id='signin_userName']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ee1055f-17c1-4e29-852d-f835e6d1114d",
+      "comment": "",
+      "command": "type",
+      "target": "id=signin_userName",
+      "targets": [
+        ["id=signin_userName", "id"],
+        ["name=userName", "name"],
+        ["css=#signin_userName", "css:finder"],
+        ["xpath=//input[@id='signin_userName']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "jacobwest"
+    }, {
+      "id": "44b92586-ba60-4cbb-8a10-af5c8b102a98",
+      "comment": "",
+      "command": "type",
+      "target": "id=signin_password",
+      "targets": [
+        ["id=signin_password", "id"],
+        ["name=password", "name"],
+        ["css=#signin_password", "css:finder"],
+        ["xpath=//input[@id='signin_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "C1sc0.123"
+    }, {
+      "id": "3ea16f94-f59f-4f4c-ace0-a14be58e8c7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a9311a-2ad4-4c82-a65f-bdc2dd170337",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "198e3aaf-d2f2-47a4-af93-4377b5e505cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(2) .product-img",
+      "targets": [
+        ["css=.col-sm-4:nth-child(2) .product-img", "css:finder"],
+        ["xpath=//div[@id='pageContainer']/div[2]/div[3]/div[2]/div/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a255fd7-bb75-4896-90d3-3c4faed4f295",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bb8956c-2abc-449f-a967-2772fa606588",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCart",
+      "targets": [
+        ["css=.addToCart", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='input-254']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "794a667e-3621-4758-806c-a104bc9bd2ed",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9134ca5-ec32-4b9c-8cca-e04ec5ce49a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .name",
+      "targets": [
+        ["css=li:nth-child(1) .name", "css:finder"],
+        ["xpath=//ul[@id='topMain']/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eb6a1d9-d8f7-4067-8151-515aee57460d",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5eaf9ab-1d14-41af-badb-fa16ca6c3cf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#productsContainer > .col-md-4:nth-child(5) .overlay",
+      "targets": [
+        ["css=#productsContainer > .col-md-4:nth-child(5) .overlay", "css:finder"],
+        ["xpath=//div[@id='productsContainer']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/product/1885-hammond.html/ref=c:1')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6f5c55-e9c3-4683-9159-8ba044098b6e",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a70d97a-dc4d-4e61-9bde-a9d479b731f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCart",
+      "targets": [
+        ["css=.addToCart", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='input-256']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1702acab-9c48-4f67-a2db-94f59048a89b",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97e4dbee-371b-4b10-bf51-3d4dd608918b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .name",
+      "targets": [
+        ["css=li:nth-child(1) .name", "css:finder"],
+        ["xpath=//ul[@id='topMain']/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7649e647-9ea8-4aab-af8b-c6754da24837",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4413a3e-559a-4a17-ae83-79e54cb84097",
+      "comment": "",
+      "command": "click",
+      "target": "css=#productsContainer > .col-md-4:nth-child(8) .overlay",
+      "targets": [
+        ["css=#productsContainer > .col-md-4:nth-child(8) .overlay", "css:finder"],
+        ["xpath=//div[@id='productsContainer']/div[8]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/product/1892-franklin-tilton.html/ref=c:1')]", "xpath:href"],
+        ["xpath=//div[8]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "809d4998-19fa-4493-8054-778f573e49f5",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ee96123-24be-4008-a923-1834baab12cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCart",
+      "targets": [
+        ["css=.addToCart", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='input-259']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2529b8cc-8d97-4a28-91b5-def268b61fb2",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a77b1182-6d61-48ac-801b-c711bb304ff3",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > strong",
+      "targets": [
+        ["css=font > strong", "css:finder"],
+        ["xpath=//span[@id='miniCartSummary']/font/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'(3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a19e819-769f-42b9-8934-39bc011cf7d0",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de52e9e6-7c36-4313-afe5-9fa799242b92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//a[@onclick='viewShoppingCartPage();']", "xpath:attributes"],
+        ["xpath=//ul[@id='miniCartDetails']/li/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8067f70-6367-443a-87e5-e496935f5962",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfc94eb9-f753-4a7d-a06c-90268460626b",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//table[@id='mainCartTable']/tfoot/tr/td[2]/button", "xpath:idRelative"],
+        ["xpath=//td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f5b5fd-fefc-4a87-8ca9-b3ce4f2156bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=customerAgreed",
+      "targets": [
+        ["id=customerAgreed", "id"],
+        ["name=customerAgreed", "name"],
+        ["css=#customerAgreed", "css:finder"],
+        ["xpath=//input[@id='customerAgreed']", "xpath:attributes"],
+        ["xpath=//label[@id='customerAgreement']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f14fea-2fb7-4b4b-8d9d-265d06bcd0d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitOrder",
+      "targets": [
+        ["id=submitOrder", "id"],
+        ["css=#submitOrder", "css:finder"],
+        ["xpath=//button[@id='submitOrder']", "xpath:attributes"],
+        ["xpath=//div[@id='checkout']/div/div[2]/div[2]/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4386784d-0784-40ff-87a0-adbc88e60575",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7878c4e7-a6aa-464d-87a4-20ad1331e33e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customerAccount .uppercase",
+      "targets": [
+        ["css=#customerAccount .uppercase", "css:finder"],
+        ["xpath=//div[@id='customerAccount']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a85ce950-9b7b-4257-9d8c-646785623afe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript:location.href='/shop/customer/logout';\"]", "xpath:attributes"],
+        ["xpath=//div[@id='customerAccount']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa27a86-1a62-432c-b176-9bee802a301e",
+      "comment": "",
+      "command": "pause",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edf8286e-06c3-40d4-85c5-a8aa0fff8a92",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c86d16e-38b7-4268-82de-39461cae9c7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a283b899-734d-4359-9f9c-956461cd438b"]
+  }],
+  "urls": ["http://typeshop.xentaurs.com/"],
+  "plugins": []
+}

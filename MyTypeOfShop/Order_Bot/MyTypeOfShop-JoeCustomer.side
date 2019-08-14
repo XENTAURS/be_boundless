@@ -1,0 +1,309 @@
+{
+  "id": "1294f72c-4e97-4a4e-aad3-771526f05664",
+  "version": "2.0",
+  "name": "MyTypeOfShop-JoeCustomer",
+  "url": "http://typeshop.xentaurs.com",
+  "tests": [{
+    "id": "6f966f42-c1b7-4f90-9ad3-905071858daf",
+    "name": "joeuserorder",
+    "commands": [{
+      "id": "5cd7cb16-a3b0-4077-ab79-e2b0f4965d2a",
+      "comment": "",
+      "command": "open",
+      "target": "/shop",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e9304a1-4814-4a48-b229-725fecf63cb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2560x1342",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1464795-8389-433c-b880-a503d8efecd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customerAccount .uppercase",
+      "targets": [
+        ["css=#customerAccount .uppercase", "css:finder"],
+        ["xpath=//div[@id='customerAccount']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d764c27-b8a7-443b-8b4e-9beacd64df19",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin_userName",
+      "targets": [
+        ["id=signin_userName", "id"],
+        ["name=userName", "name"],
+        ["css=#signin_userName", "css:finder"],
+        ["xpath=//input[@id='signin_userName']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab0b5f91-951b-4e5a-9d2c-10d0872152a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=signin_userName",
+      "targets": [
+        ["id=signin_userName", "id"],
+        ["name=userName", "name"],
+        ["css=#signin_userName", "css:finder"],
+        ["xpath=//input[@id='signin_userName']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "joecustomer"
+    }, {
+      "id": "cd1d083d-0610-457a-8a04-8f8e7d26adca",
+      "comment": "",
+      "command": "type",
+      "target": "id=signin_password",
+      "targets": [
+        ["id=signin_password", "id"],
+        ["name=password", "name"],
+        ["css=#signin_password", "css:finder"],
+        ["xpath=//input[@id='signin_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "C1sc0.123"
+    }, {
+      "id": "11ccc0ec-47c9-4741-a6be-a49ed68f9c36",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26893d30-85d0-44f9-b5c0-ae6b7c7fe944",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ee45d13-7549-4b07-a944-e241f7d3a847",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(1) .product-img",
+      "targets": [
+        ["css=.col-sm-4:nth-child(1) .product-img", "css:finder"],
+        ["xpath=//div[@id='pageContainer']/div[2]/div[3]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26893d30-85d0-44f9-b5c0-ae6b7c7fe944",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91f415a2-b48f-4e89-9e50-70f0f174fcc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCart",
+      "targets": [
+        ["css=.addToCart", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='input-2']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77b26879-218f-4714-bb63-b1e510da7152",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .name",
+      "targets": [
+        ["css=li:nth-child(1) .name", "css:finder"],
+        ["xpath=//ul[@id='topMain']/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f56fd845-d3ff-407a-8926-9b3b53fd2904",
+      "comment": "",
+      "command": "click",
+      "target": "css=#productsContainer > .col-md-4:nth-child(1) .overlay",
+      "targets": [
+        ["css=#productsContainer > .col-md-4:nth-child(1) .overlay", "css:finder"],
+        ["xpath=//div[@id='productsContainer']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/product/1864-schreibmaschine.html/ref=c:1')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "715974ac-733e-4a0e-8a11-6a60026dcc5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCart",
+      "targets": [
+        ["css=.addToCart", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='input-1']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cebb50b9-e56c-4ee7-a33c-529025f2c3a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .active",
+      "targets": [
+        ["css=li:nth-child(2) > .active", "css:finder"],
+        ["xpath=//ul[@id='topMain']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/category/type-press.html/ref=c:1,50')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32cac608-9633-4eb5-b896-24bf35a98e58",
+      "comment": "",
+      "command": "click",
+      "target": "css=#productsContainer > .col-md-4:nth-child(1) .overlay",
+      "targets": [
+        ["css=#productsContainer > .col-md-4:nth-child(1) .overlay", "css:finder"],
+        ["xpath=//div[@id='productsContainer']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/product/guttenburg.html/ref=c:50')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a6715b8-0929-465d-a6cc-6ca83bf23cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCart",
+      "targets": [
+        ["css=.addToCart", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='input-208']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c97a95-3c74-4f92-94a6-1751e9182a30",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > strong",
+      "targets": [
+        ["css=font > strong", "css:finder"],
+        ["xpath=//span[@id='miniCartSummary']/font/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'(3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf7f14f-6da1-45fa-bc12-5e52c4f79f37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//a[@onclick='viewShoppingCartPage();']", "xpath:attributes"],
+        ["xpath=//ul[@id='miniCartDetails']/li/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0cf1df-d3b0-47fa-bff0-649692cb8665",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//table[@id='mainCartTable']/tfoot/tr/td[2]/button", "xpath:idRelative"],
+        ["xpath=//td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4625dc4c-1b31-4c78-879f-a0428d542acf",
+      "comment": "",
+      "command": "click",
+      "target": "id=customerAgreed",
+      "targets": [
+        ["id=customerAgreed", "id"],
+        ["name=customerAgreed", "name"],
+        ["css=#customerAgreed", "css:finder"],
+        ["xpath=//input[@id='customerAgreed']", "xpath:attributes"],
+        ["xpath=//label[@id='customerAgreement']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab1d2336-fc07-4a9a-9641-5536bac772df",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitOrder",
+      "targets": [
+        ["id=submitOrder", "id"],
+        ["css=#submitOrder", "css:finder"],
+        ["xpath=//button[@id='submitOrder']", "xpath:attributes"],
+        ["xpath=//div[@id='checkout']/div/div[2]/div[2]/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3dcc1e-278f-4d47-a444-8eb1de55e0d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uppercase > .no-responsive",
+      "targets": [
+        ["css=.uppercase > .no-responsive", "css:finder"],
+        ["xpath=//div[@id='customerAccount']/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "247cc075-153e-4466-9dee-358eaa874b83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript:location.href='/shop/customer/logout';\"]", "xpath:attributes"],
+        ["xpath=//div[@id='customerAccount']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "493e1608-a7c6-4f14-80e4-dd38a80ede2f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "02a9995f-63a7-4c5f-b20f-babcc496fd26",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f966f42-c1b7-4f90-9ad3-905071858daf"]
+  }],
+  "urls": ["http://10.20.19.109/"],
+  "plugins": []
+}
