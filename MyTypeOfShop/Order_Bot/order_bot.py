@@ -44,8 +44,6 @@ if __name__ == '__main__':
         dt = datetime.datetime.now().strftime('%m-%d-%y_%H:%M:%S')
         with open ('/root/shopizer-automate/logs/order_bot_{0}.log'.format(dt),'w') as f:
             new_log = f.write(orig_log)
-    else:
-       os.mkdir('/root/shopizer-automate/logs')
 
     sys.stdout = Logger()
 
