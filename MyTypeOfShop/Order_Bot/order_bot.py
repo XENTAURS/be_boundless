@@ -36,6 +36,8 @@ class Logger(object):
         pass
 
 if __name__ == '__main__':
+    if not os.path.exists('/root/shopizer-automate/logs'):
+        os.mkdir('/root/shopizer-automate/logs')
     if os.path.exists('/root/shopizer-automate/logs/order_bot.log'):
         with open('/root/shopizer-automate/logs/order_bot.log') as f:
             orig_log = f.read()
